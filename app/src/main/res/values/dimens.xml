@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Font Sizes -->
+    <dimen name="font_title_app_bar">16sp</dimen>
+    <dimen name="font_title_content">20sp</dimen>
+    <dimen name="font_title_content_large">25sp</dimen>
+    <dimen name="font_title_content_large_one">30sp</dimen>
+    <dimen name="font_title_content_large_two">26sp</dimen>
+    <dimen name="font_large">16sp</dimen>
+    <dimen name="font_large_one">18sp</dimen>
+    <dimen name="font_regular">14sp</dimen>
+    <dimen name="font_small">12sp</dimen>
+    <dimen name="font_smaller">10sp</dimen>
+
+    <!-- Spacing Between Two Views -->
+    <dimen name="spacing_huger">200dp</dimen>
+    <dimen name="spacing_huger_two">300dp</dimen>
+    <dimen name="spacing_larger">60dp</dimen>
+    <dimen name="spacing_larger_two">62dp</dimen>
+    <dimen name="spacing_giant_more">100dp</dimen>
+    <dimen name="spacing_giant_more_one">109dp</dimen>
+    <dimen name="spacing_giant_more_two">102dp</dimen>
+    <dimen name="spacing_giant_more_three">117dp</dimen>
+    <dimen name="spacing_giant_two">96dp</dimen>
+    <dimen name="spacing_large_med">32dp</dimen>
+    <dimen name="spacing_huge_slight">50dp</dimen>
+    <dimen name="spacing_huge">40dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_regular">16dp</dimen>
+    <dimen name="spacing_regular_large">19dp</dimen>
+    <dimen name="spacing_normal_quarter">12dp</dimen>
+    <dimen name="spacing_small">15dp</dimen>
+    <dimen name="spacing_smaller">20dp</dimen>
+    <dimen name="spacing_smaller_one">22dp</dimen>
+    <dimen name="spacing_tiny">4dp</dimen>
+    <dimen name="spacing_tiny_large">8dp</dimen>
+    <dimen name="spacing_tiny_mini_large">6dp</dimen>
+    <dimen name="spacing_weeny">2dp</dimen>
+</resources>

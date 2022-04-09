@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".signup_proses">
+
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_large"
+        android:layout_marginTop="@dimen/spacing_large"
+        android:contentDescription="@string/ic_back"
+        android:src="@drawable/icon_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_getstarted"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_smaller"
+        android:layout_marginEnd="@dimen/spacing_regular"
+        android:fontFamily="@font/popmedium"
+        android:text="@string/text_get_started"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/font_title_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/img_back"
+        app:layout_constraintTop_toBottomOf="@+id/img_back" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_tiny_large"
+        android:fontFamily="@font/popmedium"
+        android:text="@string/text_data"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_small"
+        app:layout_constraintEnd_toEndOf="@+id/tv_getstarted"
+        app:layout_constraintStart_toStartOf="@+id/tv_getstarted"
+        app:layout_constraintTop_toBottomOf="@+id/tv_getstarted" />
+
+    <EditText
+        android:id="@+id/edt_firstname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_smaller"
+        android:background="@drawable/custom_signup"
+        android:ems="10"
+        android:hint="@string/text_first_name"
+        android:inputType="textPersonName"
+        android:padding="@dimen/font_small"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/edt_lastname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_smaller"
+        android:background="@drawable/custom_signup"
+        android:ems="10"
+        android:hint="@string/text_last_name"
+        android:inputType="textPersonName"
+        android:padding="@dimen/font_small"
+        app:layout_constraintEnd_toEndOf="@+id/edt_firstname"
+        app:layout_constraintStart_toStartOf="@+id/edt_firstname"
+        app:layout_constraintTop_toBottomOf="@+id/edt_firstname" />
+
+    <EditText
+        android:id="@+id/edt_mobile_number"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_smaller"
+        android:background="@drawable/custom_signup"
+        android:ems="10"
+        android:hint="@string/text_mobile_number"
+        android:inputType="number"
+        android:padding="@dimen/font_small"
+        app:layout_constraintEnd_toEndOf="@+id/edt_lastname"
+        app:layout_constraintStart_toStartOf="@+id/edt_lastname"
+        app:layout_constraintTop_toBottomOf="@+id/edt_lastname" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_next"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_giant_more_one"
+        android:layout_marginEnd="@dimen/spacing_giant_more_one"
+        android:layout_marginBottom="@dimen/spacing_larger"
+        android:background="@drawable/custom_btn_create"
+        android:fontFamily="@font/popmedium"
+        android:text="@string/text_next"
+        android:textSize="@dimen/font_large"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

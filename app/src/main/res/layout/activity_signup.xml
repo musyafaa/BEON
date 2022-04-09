@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".signup">
+
+    <ImageView
+        android:id="@+id/img_beon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_giant_more"
+        android:layout_marginTop="@dimen/spacing_large"
+        android:layout_marginEnd="@dimen/spacing_giant_more"
+        android:contentDescription="@string/id_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_for_signup" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_regular"
+        android:layout_marginTop="@dimen/spacing_large_med"
+        android:layout_marginEnd="@dimen/spacing_regular"
+        android:fontFamily="@font/popmedium"
+        android:gravity="center"
+        android:text="@string/text_sign_up_for_free"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/font_title_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_beon"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <EditText
+        android:id="@+id/edt_username"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_smaller_one"
+        android:background="@drawable/custom_signup"
+        android:drawableStart="@drawable/ic_profile_signup"
+        android:drawablePadding="@dimen/spacing_smaller"
+        android:ems="10"
+        android:hint="@string/text_username"
+        android:inputType="textPersonName"
+        android:padding="@dimen/font_small"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_regular"
+        android:background="@drawable/custom_signup"
+        android:drawableStart="@drawable/ic_email_signup"
+        android:drawablePadding="@dimen/spacing_smaller"
+        android:ems="10"
+        android:hint="@string/text_email"
+        android:inputType="textEmailAddress"
+        android:padding="@dimen/font_small"
+        app:layout_constraintEnd_toEndOf="@+id/edt_username"
+        app:layout_constraintStart_toStartOf="@+id/edt_username"
+        app:layout_constraintTop_toBottomOf="@+id/edt_username" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_regular"
+        android:background="@drawable/custom_signup"
+        android:drawableStart="@drawable/ic_pwd_signup"
+        android:drawablePadding="@dimen/spacing_smaller"
+        android:ems="10"
+        android:hint="@string/text_Password"
+        android:inputType="textVisiblePassword"
+        android:padding="@dimen/font_small"
+        app:layout_constraintEnd_toEndOf="@+id/edt_email"
+        app:layout_constraintStart_toStartOf="@+id/edt_email"
+        app:layout_constraintTop_toBottomOf="@+id/edt_email" />
+
+    <RadioButton
+        android:id="@+id/radio_pirates"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_regular"
+        android:buttonTint="@color/color_blue70"
+        android:fontFamily="@font/popreguler"
+        android:text="@string/text_Keep"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/font_small"
+        app:layout_constraintEnd_toEndOf="@+id/editText"
+        app:layout_constraintStart_toStartOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <RadioButton
+        android:id="@+id/radio_ninjas"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/color_blue70"
+        android:fontFamily="@font/popreguler"
+        android:text="@string/text_Pricing"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/font_small"
+        app:layout_constraintEnd_toEndOf="@+id/radio_pirates"
+        app:layout_constraintStart_toStartOf="@+id/radio_pirates"
+        app:layout_constraintTop_toBottomOf="@+id/radio_pirates" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCompatButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_giant_more"
+        android:layout_marginEnd="@dimen/spacing_giant_more"
+        android:layout_marginBottom="@dimen/spacing_larger"
+        android:background="@drawable/custom_btn_create"
+        android:fontFamily="@font/popmedium"
+        android:text="@string/text_create_account"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_already"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_regular"
+        android:fontFamily="@font/popreguler"
+        android:gravity="center"
+        android:text="@string/text_already_have_an_account"
+        android:textColor="@color/color_blue70"
+        android:textSize="@dimen/font_small"
+        app:layout_constraintEnd_toEndOf="@+id/appCompatButton"
+        app:layout_constraintStart_toStartOf="@+id/appCompatButton"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatButton" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

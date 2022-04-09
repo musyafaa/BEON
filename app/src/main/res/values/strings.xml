@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">BEON</string>
+    <string name="text_sign_up_for_free">Sign Up For Free</string>
+    <string name="id_icon">icon</string>
+    <string name="text_email">Email</string>
+    <string name="text_username">Username</string>
+    <string name="text_Password">Password</string>
+    <string name="text_Keep">Keep me sign in</string>
+    <string name="text_Pricing">Email me about special pricing</string>
+    <string name="text_already_have_an_account">already have an account?</string>
+    <string name="text_create_account">Create Account</string>
+    <string name="text_get_started">Fill in your bio to get started</string>
+    <string name="text_data">This data will be displayed in your account profile for security</string>
+    <string name="ic_back">back</string>
+    <string name="text_first_name">First Name</string>
+    <string name="text_last_name">Last Name</string>
+    <string name="text_mobile_number">Mobile Number</string>
+    <string name="text_next">Next</string>
+    <string name="text_ready">Your Profile Is Ready To Use</string>
+    <string name="text_congrats">Congrats!</string>
+    <string name="img_ceklis">ceklis</string>
+    <string name="text_try_now">Try Now</string>
+    <string name="text_forgot_your_password">Forgot Your Password?</string>
+    <string name="btn_imgbtn_fb">imgbtn_fb</string>
+    <string name="btn_imgbtn_google">imgbtn_google</string>
+    <string name="text_or_continue_with">Or Continue With</string>
+    <string name="ltext_ogin_to_your_account">Login To Your Account</string>
+    <string name="text_login">Login</string>
+    <string name="text_find_your_best_workshop">Find Your Best Workshop</string>
+    <string name="text_find_the_nearest_workshop">Find the nearest workshop</string>
+
+</resources>
