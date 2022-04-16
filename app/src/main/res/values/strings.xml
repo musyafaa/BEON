@@ -28,5 +28,33 @@
     <string name="text_login">Login</string>
     <string name="text_find_your_best_workshop">Find Your Best Workshop</string>
     <string name="text_find_the_nearest_workshop">Find the nearest workshop</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_privacy_security"><![CDATA[Privacy & Security]]></string>
+    <string name="text_imgbtn">imgbtn</string>
+    <string name="text_forgot_password">Forgot password?</string>
+    <string name="text_select">Select which contact details should we use to reset your password</string>
+    <string name="text_enter_4_digit_verification_code">Enter 4-digit Verification code</string>
+    <string name="text_code_send_to_6282045_this_code_will_expired_in_01_30">Code send to +6282045****.</string>
+    <string name="text_input_your_number_phone">Via SMS</string>
+    <string name="text_via_email">Via Email</string>
+    <string name="text_this_code_will_expired_in_01_30">This code will expired in 01:30</string>
+    <string name="text_reset_your_password_here">Reset your password here</string>
+    <string name="text_select_which">Select which contact details should we use to reset your password</string>
+    <string name="text_new_password">New Password</string>
+    <string name="text_password_reset_succesful">Password reset succesful</string>
+    <string name="text_filter">Filter</string>
+    <string name="text_category">Category</string>
+    <string name="text_0_100">0 - 100$</string>
+    <string name="text_price_range">Price Range</string>
+    <string name="text_toyota">Toyota</string>
+    <string name="text_daihatsu">Daihatsu</string>
+    <string name="text_yamaha">Yamaha</string>
+    <string name="text_view_more">View More</string>
+    <string name="text_brand">Brand</string>
+    <string name="text_motorbike_service">Motorbike Service</string>
+    <string name="text_car_service">Car Service</string>
+    <string name="text_reset">Reset</string>
+    <string name="text_customer_review">Customer Review</string>
 
 </resources>

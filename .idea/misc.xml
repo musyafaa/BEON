@@ -3,20 +3,48 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/BEON/app/src/main/res/drawable/btn_call.xml" value="0.290625" />
+        <entry key="..\:/BEON/app/src/main/res/drawable/btn_car.xml" value="0.2703125" />
+        <entry key="..\:/BEON/app/src/main/res/drawable/btn_pop.xml" value="0.2703125" />
         <entry key="..\:/BEON/app/src/main/res/drawable/custom_btn_create.xml" value="0.290625" />
+        <entry key="..\:/BEON/app/src/main/res/drawable/custom_car.xml" value="0.2703125" />
+        <entry key="..\:/BEON/app/src/main/res/drawable/custom_chat.xml" value="0.290625" />
+        <entry key="..\:/BEON/app/src/main/res/drawable/custom_chat_text.xml" value="0.2703125" />
+        <entry key="..\:/BEON/app/src/main/res/drawable/custom_con.xml" value="0.202734375" />
+        <entry key="..\:/BEON/app/src/main/res/drawable/custom_daihatsu.xml" value="0.24027777777777778" />
+        <entry key="..\:/BEON/app/src/main/res/drawable/custom_detail.xml" value="0.2703125" />
+        <entry key="..\:/BEON/app/src/main/res/drawable/custom_digit.xml" value="0.2703125" />
         <entry key="..\:/BEON/app/src/main/res/drawable/custom_linear_color.xml" value="0.290625" />
+        <entry key="..\:/BEON/app/src/main/res/drawable/custom_motor.xml" value="0.2703125" />
+        <entry key="..\:/BEON/app/src/main/res/drawable/custom_motorbike.xml" value="0.2703125" />
+        <entry key="..\:/BEON/app/src/main/res/drawable/custom_now.xml" value="0.2703125" />
+        <entry key="..\:/BEON/app/src/main/res/drawable/custom_pop.xml" value="0.2703125" />
         <entry key="..\:/BEON/app/src/main/res/drawable/custom_search.xml" value="0.290625" />
         <entry key="..\:/BEON/app/src/main/res/drawable/custom_signup.xml" value="0.290625" />
+        <entry key="..\:/BEON/app/src/main/res/drawable/custom_track.xml" value="0.290625" />
+        <entry key="..\:/BEON/app/src/main/res/drawable/custom_yamaha.xml" value="0.24027777777777778" />
         <entry key="..\:/BEON/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2875" />
         <entry key="..\:/BEON/app/src/main/res/drawable/ic_profile.xml" value="0.290625" />
         <entry key="..\:/BEON/app/src/main/res/layout/activity_dashboard.xml" value="0.4" />
-        <entry key="..\:/BEON/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/BEON/app/src/main/res/layout/activity_detail.xml" value="0.4" />
+        <entry key="..\:/BEON/app/src/main/res/layout/activity_filter.xml" value="0.264" />
+        <entry key="..\:/BEON/app/src/main/res/layout/activity_find.xml" value="0.264" />
+        <entry key="..\:/BEON/app/src/main/res/layout/activity_forgot.xml" value="0.4" />
+        <entry key="..\:/BEON/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/BEON/app/src/main/res/layout/activity_password.xml" value="0.2346014492753623" />
         <entry key="..\:/BEON/app/src/main/res/layout/activity_sign_in.xml" value="0.264" />
         <entry key="..\:/BEON/app/src/main/res/layout/activity_sign_up.xml" value="0.4" />
         <entry key="..\:/BEON/app/src/main/res/layout/activity_signup.xml" value="0.4" />
         <entry key="..\:/BEON/app/src/main/res/layout/activity_signup_notif.xml" value="0.264" />
         <entry key="..\:/BEON/app/src/main/res/layout/activity_signup_proses.xml" value="0.264" />
         <entry key="..\:/BEON/app/src/main/res/layout/activity_splash.xml" value="0.152" />
+        <entry key="..\:/BEON/app/src/main/res/layout/activity_succes.xml" value="0.2346014492753623" />
+        <entry key="..\:/BEON/app/src/main/res/layout/activity_vc.xml" value="0.176" />
+        <entry key="..\:/BEON/app/src/main/res/layout/activity_verification.xml" value="0.264" />
+        <entry key="..\:/BEON/app/src/main/res/layout/fragment_chat.xml" value="0.2" />
+        <entry key="..\:/BEON/app/src/main/res/layout/fragment_home.xml" value="0.4" />
+        <entry key="..\:/BEON/app/src/main/res/layout/fragment_maps.xml" value="0.2503562945368171" />
+        <entry key="..\:/BEON/app/src/main/res/layout/fragment_profile.xml" value="0.4" />
         <entry key="..\:/BEON/app/src/main/res/menu/menu.xml" value="0.27447916666666666" />
         <entry key="..\:/BEON/app/src/main/res/menu/nav_menu.xml" value="0.27447916666666666" />
         <entry key="..\:/BEON/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.290625" />

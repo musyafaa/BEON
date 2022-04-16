@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/track_order"
+    tools:context=".FragmentMaps">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="205dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="87dp"
+        app:cardCornerRadius="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_smaller"
+            android:fontFamily="@font/popsemibold"
+            android:text="Track Your Vehicle"
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/font_title_app_bar" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/track_profile"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="53dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alex Jashon"
+            android:textSize="@dimen/font_large"
+            android:textColor="@color/color_black"
+            android:fontFamily="@font/popmedium"
+            android:layout_marginLeft="@dimen/spacing_giant_two"
+            android:layout_marginTop="@dimen/spacing_larger"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/icon_maps"
+            android:drawablePadding="@dimen/spacing_tiny_mini_large"
+            android:text="25 minutes on the way"
+            android:layout_marginTop="@dimen/spacing_giant_one"
+            android:layout_marginLeft="@dimen/spacing_giant_two"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_call"
+            android:background="@color/color_transparent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="135dp"
+            android:layout_marginBottom="20dp"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_mes"
+            android:background="@color/color_transparent"
+            android:layout_marginTop="135dp"
+            android:layout_marginLeft="160dp"/>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

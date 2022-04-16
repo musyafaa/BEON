@@ -17,5 +17,8 @@ class sign_in : AppCompatActivity() {
         binding.btnLogin.setOnClickListener {
             startActivity(Intent(this, MainActivity::class.java))
         }
+        binding.tvForgot.setOnClickListener {
+            startActivity(Intent(this, ForgotActivity::class.java))
+        }
     }
 }

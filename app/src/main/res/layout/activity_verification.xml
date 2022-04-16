@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    tools:context=".VerificationActivity">
+
+    <ImageView
+        android:id="@+id/img_btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_large"
+        android:layout_marginTop="@dimen/spacing_large"
+        android:contentDescription="@string/text_imgbtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_back" />
+
+    <TextView
+        android:id="@+id/tv_code"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_top_nis_chat"
+        android:layout_marginEnd="@dimen/spacing_regular_large"
+        android:fontFamily="@font/popsemibold"
+        android:text="@string/text_enter_4_digit_verification_code"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/font_title_content_large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/img_btn_back"
+        app:layout_constraintTop_toBottomOf="@id/img_btn_back" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_regular"
+        android:fontFamily="@font/popreguler"
+        android:text="@string/text_code_send_to_6282045_this_code_will_expired_in_01_30"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/font_small"
+        app:layout_constraintEnd_toEndOf="@id/tv_code"
+        app:layout_constraintStart_toStartOf="@id/tv_code"
+        app:layout_constraintTop_toBottomOf="@id/tv_code" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_huge"
+        android:background="@drawable/custom_digit"
+        android:inputType="number"
+        android:paddingStart="@dimen/spacing_small_than"
+        android:textSize="@dimen/font_title_content"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_large"
+        android:background="@drawable/custom_digit"
+        android:inputType="number"
+        android:paddingStart="@dimen/spacing_small_than"
+        android:textSize="@dimen/font_title_content"
+        app:layout_constraintBottom_toBottomOf="@+id/editText3"
+        app:layout_constraintStart_toEndOf="@+id/editText3"
+        app:layout_constraintTop_toTopOf="@+id/editText3" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_large"
+        android:background="@drawable/custom_digit"
+        android:inputType="number"
+        android:paddingStart="@dimen/spacing_small_than"
+        android:textSize="@dimen/font_title_content"
+        app:layout_constraintBottom_toBottomOf="@+id/editText4"
+        app:layout_constraintStart_toEndOf="@+id/editText4"
+        app:layout_constraintTop_toTopOf="@+id/editText4" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_large"
+        android:background="@drawable/custom_digit"
+        android:inputType="number"
+        android:paddingStart="@dimen/spacing_small_than"
+        android:textSize="@dimen/font_title_content"
+        app:layout_constraintBottom_toBottomOf="@+id/editText2"
+        app:layout_constraintStart_toEndOf="@+id/editText2"
+        app:layout_constraintTop_toTopOf="@+id/editText2" />
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_regular"
+        android:fontFamily="@font/popreguler"
+        android:text="@string/text_this_code_will_expired_in_01_30"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/font_small"
+        app:layout_constraintEnd_toEndOf="@id/editText"
+        app:layout_constraintStart_toStartOf="@id/editText3"
+        app:layout_constraintTop_toBottomOf="@id/editText4" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_next"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_giant_more_one"
+        android:layout_marginEnd="@dimen/spacing_giant_more_one"
+        android:layout_marginBottom="@dimen/spacing_larger"
+        android:background="@drawable/custom_btn_create"
+        android:fontFamily="@font/popmedium"
+        android:text="@string/text_next"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

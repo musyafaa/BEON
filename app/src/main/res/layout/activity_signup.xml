@@ -80,7 +80,7 @@
         android:drawablePadding="@dimen/spacing_smaller"
         android:ems="10"
         android:hint="@string/text_Password"
-        android:inputType="textVisiblePassword"
+        android:inputType="textPassword"
         android:padding="@dimen/font_small"
         app:layout_constraintEnd_toEndOf="@+id/edt_email"
         app:layout_constraintStart_toStartOf="@+id/edt_email"

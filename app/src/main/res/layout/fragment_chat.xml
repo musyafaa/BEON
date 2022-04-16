@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FragmentChat">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_info"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back1"
+            android:layout_marginTop="@dimen/spacing_back_chat_top"
+            android:layout_marginStart="@dimen/spacing_regular"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/profile_chat"
+            android:layout_marginStart="@dimen/spacing_profile_chat"
+            android:layout_marginTop="@dimen/spacing_profile_chat_top"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alex Jashon"
+            android:textColor="@color/color_black"
+            android:fontFamily="@font/popsemibold"
+            android:textSize="@dimen/font_large"
+            android:layout_marginTop="@dimen/spacing_huge_slight"
+            android:layout_marginStart="@dimen/spacing_name_chat"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nissan Car Mechanic"
+            android:textSize="@dimen/font_small"
+            android:textColor="@color/color_black3"
+            android:layout_marginStart="@dimen/spacing_name_chat"
+            android:layout_marginTop="@dimen/spacing_top_nis_chat"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/call_chat"
+            android:layout_marginTop="@dimen/spacing_top_log_chat"
+            android:layout_marginStart="@dimen/spacing_start_call"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/vc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/vc_call"
+            android:layout_marginTop="@dimen/spacing_top_log_chat"
+            android:layout_marginStart="@dimen/spacing_start_vc"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_today"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Today"
+        android:gravity="center"
+        app:fontFamily="@font/popmedium"
+        android:textSize="@dimen/font_small"
+        android:layout_marginTop="@dimen/spacing_regular"
+        android:layout_marginStart="@dimen/spacing_regular"
+        android:layout_marginEnd="@dimen/spacing_large"
+        app:layout_constraintEnd_toEndOf="@id/card_info"
+        app:layout_constraintStart_toStartOf="@id/card_info"
+        app:layout_constraintTop_toBottomOf="@id/card_info" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="@dimen/spacing_regular"
+        android:backgroundTint="@color/color_black4"
+        app:cardCornerRadius="@dimen/spacing_tiny_large_one"
+        app:layout_constraintStart_toStartOf="@+id/tv_today"
+        app:layout_constraintTop_toBottomOf="@id/tv_today">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_normal_quarter"
+            android:fontFamily="@font/popreguler"
+            android:textSize="@dimen/font_smaller"
+            android:textColor="@color/color_black"
+            android:text="Hi! Is there anything I can help you with?" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_08.00"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_tiny"
+        android:text="08.00pm"
+        android:textSize="@dimen/font_smaller_one"
+        app:fontFamily="@font/popmedium"
+        app:layout_constraintEnd_toEndOf="@+id/cardView"
+        app:layout_constraintStart_toStartOf="@+id/cardView"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/spacing_tiny_mini_large"
+        app:cardCornerRadius="@dimen/spacing_tiny_large_one"
+        app:cardElevation="@dimen/spacing_tiny_large_one"
+        app:layout_constraintEnd_toEndOf="@+id/tv_today"
+        app:layout_constraintTop_toBottomOf="@+id/tv_08.00">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/custom_chat" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_tiny_large_one"
+            android:fontFamily="@font/popreguler"
+            android:text="There is a slight problem with my vehicle."
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/font_smaller" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/appCompatTextView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_tiny"
+        android:text="08.30pm"
+        android:textSize="@dimen/font_smaller_one"
+        app:fontFamily="@font/popmedium"
+        app:layout_constraintEnd_toEndOf="@+id/cardView2"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="210dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="@dimen/spacing_tiny_mini_large"
+        android:backgroundTint="@color/color_black4"
+        app:cardCornerRadius="@dimen/spacing_tiny_large_one"
+        app:layout_constraintStart_toStartOf="@+id/tv_08.00"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatTextView2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_normal_quarter"
+            android:fontFamily="@font/popreguler"
+            android:text="In what part is the problem? Can you explain the problem?"
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/font_smaller" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_09.00"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_tiny"
+        android:text="09.00pm"
+        android:textSize="@dimen/font_smaller_one"
+        app:fontFamily="@font/popmedium"
+        app:layout_constraintEnd_toEndOf="@+id/cardView3"
+        app:layout_constraintStart_toStartOf="@+id/cardView3"
+        app:layout_constraintTop_toBottomOf="@+id/cardView3" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView4"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/spacing_tiny_mini_large"
+        app:cardCornerRadius="@dimen/spacing_tiny_large_one"
+        app:cardElevation="@dimen/spacing_tiny_large_one"
+        app:layout_constraintEnd_toEndOf="@+id/appCompatTextView2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_09.00">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/custom_chat" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_normal_quarter"
+            android:fontFamily="@font/popreguler"
+            android:text="I'm not really sure how to explain it"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/font_smaller" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/appCompatTextView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_tiny"
+        android:text="09.30pm"
+        android:textSize="@dimen/font_smaller_one"
+        app:fontFamily="@font/popmedium"
+        app:layout_constraintEnd_toEndOf="@+id/cardView4"
+        app:layout_constraintTop_toBottomOf="@+id/cardView4" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView5"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="@dimen/spacing_tiny_mini_large"
+        android:backgroundTint="@color/color_black4"
+        app:cardCornerRadius="@dimen/spacing_tiny_large_one"
+        app:layout_constraintStart_toStartOf="@+id/tv_09.00"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatTextView3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_normal_quarter"
+            android:fontFamily="@font/popreguler"
+            android:text="Alright then. We will send a mechanic to take your vehicle to our workshop for service."
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/font_smaller" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="10.00pm"
+        android:textSize="@dimen/font_smaller_one"
+        app:fontFamily="@font/popmedium"
+        android:layout_marginTop="@dimen/spacing_tiny"
+        app:layout_constraintEnd_toEndOf="@+id/cardView5"
+        app:layout_constraintStart_toStartOf="@+id/cardView5"
+        app:layout_constraintTop_toBottomOf="@+id/cardView5" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_large"
+        android:layout_marginEnd="@dimen/spacing_giant_two"
+        android:layout_marginBottom="@dimen/spacing_top_nis_chat"
+        android:background="@drawable/custom_chat_text"
+        android:fontFamily="@font/popreguler"
+        android:paddingStart="@dimen/spacing_small"
+        android:hint="Send Message"
+        android:textColor="@color/color_black1"
+        android:textSize="@dimen/spacing_small"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/send"
+        android:layout_marginEnd="@dimen/spacing_large"
+        app:layout_constraintBottom_toBottomOf="@+id/editText5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editText5"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -47,7 +47,7 @@
         app:layout_constraintStart_toStartOf="@+id/tv_login"
         app:layout_constraintTop_toBottomOf="@+id/tv_login" />
 
-    <EditText
+    <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/edt_firstname"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -55,7 +55,7 @@
         android:background="@drawable/custom_signup"
         android:ems="10"
         android:hint="@string/text_Password"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
         android:padding="@dimen/font_small"
         app:layout_constraintEnd_toEndOf="@+id/edt_email"
         app:layout_constraintStart_toStartOf="@+id/edt_email"
@@ -103,7 +103,7 @@
         app:srcCompat="@drawable/google" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tv_forgot"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -131,6 +131,6 @@
         android:textSize="@dimen/font_large"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_forgot" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
