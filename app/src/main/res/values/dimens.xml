@@ -49,4 +49,10 @@
     <dimen name="spacing_tiny_large_one">10dp</dimen>
     <dimen name="spacing_tiny_mini_large">6dp</dimen>
     <dimen name="spacing_weeny">2dp</dimen>
+
+
+    <!-- Spacing Vc -->
+    <dimen name="spacing_start_dec">158dp</dimen>
+    <dimen name="spacing_end_dec">157dp</dimen>
+    <dimen name="spacing_bottom_dec">40dp</dimen>
 </resources>
